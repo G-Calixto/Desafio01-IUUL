@@ -6,15 +6,18 @@
     <title>Contato</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style-contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="nome">
             <h1>
                 <span id="primeiro-nome">Gabriel</span><br>
                 <span id="sobrenome">Calixto</span>
             </h1>
-            <img src="imagens/profile_picture_roundgimp.png" alt="Foto de Gabriel Nathan Telaroli Dias Calixto">
+            <img src="imagens/profile_picture_roundgimp.png" class="profile-picture" alt="Foto de Gabriel Nathan Telaroli Dias Calixto">
         </div>
     </header>
     <nav class="menu">
@@ -26,7 +29,7 @@
         <h1>CONTATOS</h1>
         <section class="redes-sociais">
             <a href="https://github.com/G-Calixto" target="_blank">
-                <img src="imagens/github-icon-pq.png" alt="Logo github">
+                <img src="imagens/originais/github-icon.png" alt="Logo github">
             </a>
             <a href="https://www.instagram.com/gabx_q?igsh=MWlvc3BmbnRwbGI3Zw==">
                 <img src="imagens/instagram-icon-pq.png" alt="Logo instagram">
@@ -40,16 +43,29 @@
             <h2>MAIL ME</h2>
             <div>
                 <form action="#" method="#" class="form-mail">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" class="name-input">
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email" placeholder="Digite seu melhor email" class="email-input">
-                    <label for="assunto">Assunto</label>
-                    <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem" class="assunto-input">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
+                    <div id="nome">
+                        <label for="nome">Nome:</label>
+                        <input type="text"  name="nome" placeholder="Digite seu nome" class="name-input">
+                    </div>
+                    <div id="email">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email"  placeholder="Digite seu melhor email" class="email-input">
+                    </div>
+                    <div id="assunto">
+                        <label for="assunto">Assunto:</label>
+                        <input type="text"  name="assunto" placeholder="Assunto da mensagem" class="assunto-input">
+                    </div>
+                    <div  id="mensagem">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" rows="4" required></textarea>
+                    </div>
                     
                 </form>
+                <div class="submit">
+                    <button type="submit">
+                        <p>ENVIAR</p>
+                    </button>
+                </div>
             </div>
         </section>
 

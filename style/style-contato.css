@@ -103,3 +103,118 @@ main{
     padding-top: 20px;
 
 }
+
+main h1{
+    color: var(--cor03DarkBlue);
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    font-style: italic;
+    font-weight: 600;
+    margin: 20px;
+
+
+
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    color: var(--cor03DarkBlue);
+}
+
+.redes-sociais a{
+    background-color: var(--cor00LittleGrey);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.redes-sociais a img{
+    max-width: 150px;
+    max-width: 150px;
+}
+
+.mail-me{
+    max-width: 600px;
+    background-color: var(--cor03DarkBlue);
+    color: white;
+    margin: 50px auto;
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+}
+.mail-me h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.form-mail {
+    background-color: #19385B;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px; 
+}
+
+.form-mail div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-mail label {
+    margin-bottom: 5px;
+}
+
+.form-mail input,
+.form-mail textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.form-mail textarea {
+    min-height: 100px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit button{
+    background-color: var(--cor00LittleGrey);
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.submit button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+.submit button:active {
+    transform: scale(1);
+    transition: transform 0.1s ease;
+}
+
+
+footer{
+    background-color: var(--cor03DarkBlue);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
