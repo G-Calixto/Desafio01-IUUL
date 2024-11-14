@@ -7,8 +7,9 @@
     --cor02MediumBlue: #0E2E52;
     --cor03DarkBlue: #0B2440;
     --cor04skyblue: #2B8AE9;
-}
 
+
+}
 *{
     padding: 0;
     margin: 0;
@@ -88,4 +89,44 @@ main{
     border-radius: 0px 0px 12px 12px;
     padding-top: 20px;
 
+}
+
+main h1{
+    color: var(--cor03DarkBlue);
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    font-style: italic;
+    font-weight: 600;
+    margin: 20px;
+
+
+
+}
+
+
+.window-project{
+    background-color: var(--cor00LittleGrey);
+    max-width: 700px;
+    margin: auto auto 90px auto;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.308);
+    overflow: hidden;
+
+}
+.window-project h2{
+    background-color: var(--cor03DarkBlue);
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 10px;
+
+}
+
+.window-project div{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
