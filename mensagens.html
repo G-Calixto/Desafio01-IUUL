@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens Recebidas</title>
+    <link rel="stylesheet" href="style/style-mensagens.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="nome">
+            <h1>
+                <span id="primeiro-nome">Gabriel</span><br>
+                <span id="sobrenome">Calixto</span>
+            </h1>
+            <img src="imagens/profile_picture_roundgimp.png" class="profile-picture" alt="Foto de Gabriel Nathan Telaroli Dias Calixto">
+        </div>
+    </header>
+    <nav class="menu">
+        <a href="pagina-inicial.html">HOME</a>
+        <a href="projetos.html">PROJETOS</a>
+        <a href="contato.html"  class="selected" aria-current="page">CONTATO</a>
+    </nav>
+
+    <main>
+        <h1 class="titulo">Mensagens</h1>
+        <section class="windows-messages">
+            <div class="filter-search-container">
+                <select id="filter-type">
+                    <option value="all">Todos</option>
+                    <option value="name">Nome</option>
+                    <option value="email">Email</option>
+                    <option value="subject">Assunto</option>
+                    <option value="date">Data</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Digite o termo para filtrar...">
+            </div>
+            
+
+            <section id="messages-container">
+            </section>
+            <section id="message-details">
+                <h2>Detalhes da Mensagem</h2>
+                <p><strong>Nome:</strong> <span id="detail-name"></span></p>
+                <p><strong>Email:</strong> <span id="detail-email"></span></p>
+                <p><strong>Assunto:</strong> <span id="detail-subject"></span></p>
+                <p><strong>Mensagem:</strong> <span id="detail-message"></span></p>
+                <p><strong>Data:</strong> <span id="detail-date"></span></p>
+            </section>
+            <button id="clear-all">Remover Todas as Mensagens</button>
+        </section>
+    </main>
+    
+    <script src="js/lista-mensagens.js"></script>
+</body>
+</html>
