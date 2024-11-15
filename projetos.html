@@ -29,73 +29,88 @@
     <main>
         <h1>Meus Projetos</h1>
         <section class="projetos">
-            <article class="projeto01-webapp window-project">
+            <article class="projeto01-webapp window-project" id="projeto-js">
                 <h2>WebApp de Tarefas</h2>
                 <div>
                     <div class="imagem-projeto">
                         <img src="imagens/webapp de tarefas-pq.png" alt="foto de um web app para tarefas">
                     </div>
-                    <p>
-                        Uma aplicação de lista de tarefas simples e intuitiva que permite ao usuário adicionar, editar, marcar como concluídas e excluir tarefas. Ideal para organizar o dia a dia.
-                    </p>
+                    <div class="container-project-detail">
+                        <p class="project-detail"> 
+                            Uma aplicação de lista de tarefas simples e intuitiva que permite ao usuário adicionar, editar, marcar como concluídas e excluir tarefas. Ideal para organizar o dia a dia.
+                        </p>
+                    </div>
                 </div>
-                <p>
+                <p class="link-project">
                     <a href="https://www.microsoft.com/pt-br/microsoft-365/microsoft-to-do-list-app">WebApp</a>
                      | 
                     <a href="https://github.com/G-Calixto">Repositório</a>
                 </p>
                 <div>
-                    <a href="#"><img src="imagens/css-logo.png" alt="Logo CSS3">
+                    <a href="#janela-modal-css" class="buttonModal">
+                        <img src="imagens/css-logo.png" alt="Logo CSS3">
                     </a>
-                    <a href="#"><img src="imagens/js-logo.png" alt="Logo JS">
+                    <a href="#janela-modal-js" class="buttonModal">
+                        <img src="imagens/js-logo.png" alt="Logo JS">
                     </a>
-                    <a href="#"><img src="imagens/html5-logo.png" alt="Logo HTML5"></a>
+                    <a href="#janela-modal-html" class="buttonModal">
+                        <img src="imagens/html5-logo.png" alt="Logo HTML5"></a>
                 </div>
                 <p><small>Projeto não autoral, utilizado apenas para fins educacionais</small></p>
             </article>
-            <article class="projeto02-site-receitas window-project">
+            <article class="projeto02-site-receitas window-project" id="projeto-html-css">
                 <h2>Site de Receitas</h2>
                 <div>
-                    <img src="imagens/site de receitas-pq.png" alt="foto de um site de receitas">
-                    <p>
-                        Um site onde usuários podem explorar e compartilhar receitas, com uma interface colorida e fácil de navegar. Inclui categorias como sobremesas, pratos principais e lanches.
-                    </p>
+                    <div class="imagem-projeto">
+                        <img src="imagens/site de receitas-pq.png" alt="foto de um site de receitas">
+                    </div>
+                    <div class="container-project-detail">
+                        <p class="project-detail">
+                            Um site onde usuários podem explorar e compartilhar receitas, com uma interface colorida e fácil de navegar. Inclui categorias como sobremesas, pratos principais e lanches.
+                        </p>
+                    </div>
                 </div>
-                <p>
+                <p class="link-project">
                     <a href="https://www.liguesite.com.br/site-de-receitas/">Site de Receitas</a>
                      | 
                     <a href="https://github.com/G-Calixto">Repositório</a>
                 </p>
                 <div>
-                    <a href="#">
+                    <a href="#janela-modal-css" class="buttonModal">
                         <img src="imagens/css-logo.png" alt="Logo CSS3">
                     </a>
-                    <a href="#">
+                    <a href="#janela-modal-js" class="buttonModal">
                         <img src="imagens/js-logo.png" alt="Logo JS">
                     </a>
-                    <a href="#">
+                    <a href="#janela-modal-html" class="buttonModal">
                         <img src="imagens/html5-logo.png" alt="Logo HTML5">
                     </a>
-                    <a href="#">
+                    <a href="#janela-modal-bt" class="buttonModal">
                         <img src="imagens/bootstrap-icon-pq.png" alt="Logo Bootstrap">
                     </a>
                 </div>
                 <p><small>Projeto não autoral, utilizado apenas para fins educacionais</small></p>
             </article>
-            <article class="projeto03-analisador-sentimento-texto window-project">
-                <h2>Analisador de Sentimentos de Textos</h2>
+            <article class="projeto03-analisador-sentimento-texto window-project" id="projeto-python">
+                <h2 style="font-size: 48px;">Analisador de Sentimentos de Textos</h2>
                 <div>
-                    <img src="imagens/analisador de sentimentos de texto-pq.png" alt="foto de um site analisando textos">
-                    <p>
-                        Um programa em Python que analisa o sentimento (positivo, negativo ou neutro) de textos, como avaliações de produtos, comentários em redes sociais ou resenhas de filmes. Ele utiliza processamento de linguagem natural (NLP) para identificar palavras-chave e determinar a polaridade emocional do texto.                   </p>
+                    <div class="imagem-projeto">
+                        <img src="imagens/analisador de sentimentos de texto-pq.png" alt="foto de um site analisando textos">
+                    </div>
+                    <div class="container-project-detail">
+                        <p class="project-detail">
+                            Um programa em Python que analisa o sentimento (positivo, negativo ou neutro) de textos, como avaliações de produtos, comentários em redes sociais ou resenhas de filmes. Ele utiliza processamento de linguagem natural (NLP) para identificar palavras-chave e determinar a polaridade emocional do texto.
+                        </p>
+                    </div>
                 </div>
-                <p>
+                <p class="link-project">
                     <a href="https://binds.co">Analisador</a>
                      | 
                     <a href="https://github.com/G-Calixto">Repositório</a>
                 </p>
                 <div>
-                    <a href="#"><img src="imagens/python-logo.png" alt="Logo CSS3">
+                    <a href="#janela-modal-python" class="buttonModal">
+                        <img src="imagens/python-logo.png" alt="Logo Pyhton">
                     </a>
                 </div>
                 <p><small>Projeto não autoral, utilizado apenas para fins educacionais</small></p>
@@ -103,32 +118,35 @@
         </section>
         <section id="janela-modal-python" class="modal">
             <article class="pyhton">
-                <div class="pyhton-content">
-                    <div>
+                <!-- ATENÇÃO AQUI MANA -->
+                <div class="modal-content">
+                    <div class="container-header-modal">
                         <img src="imagens/python-logo.png" alt="Logo Pyhton">
                         <h3>PYTHON</h3>
                     </div>
-                    <div class="left-column">
-                        <p>
-                            Python é uma linguagem de programação de alto nível, versátil e com uma vasta biblioteca padrão que possibilita seu uso em diversas áreas, como desenvolvimento web, automação, análise de dados e aprendizado de máquina.
-                        </p>
-                    </div>
-                    <div class="right-column">
-                        <div class="pros">
-                            <h3>PRÓS</h3>
-                            <ul>
-                                <li>Facilidade de leitura</li>
-                                <li>Amplo ecossistema de bibliotecas</li>
-                                <li>Comunidade ativa</li>
-                            </ul>
+                    <div class="modal-content-info">
+                        <div class="left-column">
+                            <p>
+                                Python é uma linguagem de programação de alto nível, versátil e com uma vasta biblioteca padrão que possibilita seu uso em diversas áreas, como desenvolvimento web, automação, análise de dados e aprendizado de máquina.
+                            </p>
                         </div>
-                        <div class="contras">
-                            <h3>CONTRAS</h3>
-                            <ul >
-                                <li>Mais lento que linguagens compiladas</li>
-                                <li>Não ideal para dispositivos móveis</li>
-                                <li>Gerenciamento de memória</li>
-                            </ul>
+                        <div class="right-column">
+                            <div class="pros">
+                                <h3>PRÓS</h3>
+                                <ul>
+                                    <li>Facilidade de leitura</li>
+                                    <li>Amplo ecossistema de bibliotecas</li>
+                                    <li>Comunidade ativa</li>
+                                </ul>
+                            </div>
+                            <div class="contras">
+                                <h3>CONTRAS</h3>
+                                <ul >
+                                    <li>Mais lento que linguagens compiladas</li>
+                                    <li>Não ideal para dispositivos móveis</li>
+                                    <li>Gerenciamento de memória</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 <a href="python.org" target="_blank">python.org</a>    
@@ -140,31 +158,33 @@
         </section>
         <section id="janela-modal-html" class="modal">
             <article class="html">
-                <div class="html-content">
-                    <div>
+                <div class="modal-content">
+                    <div  class="container-header-modal">
                         <img src="imagens/html5-logo.png" alt="Logo html">
                         <h3>HTML5</h3>
                     </div>
-                    <div class="left-column">
-                        <p>
-                            HTML5 é a última versão da linguagem de marcação utilizada para estruturar e exibir conteúdo na web. Ela introduz uma série de novos elementos, atributos e funcionalidades para tornar o desenvolvimento web mais poderoso e eficiente.                        </p>
-                    </div>
-                    <div class="right-column">
-                        <div class="pros">
-                            <h3>PRÓS</h3>
-                            <ul>
-                                <li>Responsividade Nativa</li>
-                                <li>Estruturação semântica do conteúdo</li>
-                                <li>Suporte para vídeos e áudios sem plugins externos.</li>
-                            </ul>
+                    <div class="modal-content-info">
+                        <div class="left-column">
+                            <p>
+                                HTML5 é a última versão da linguagem de marcação utilizada para estruturar e exibir conteúdo na web. Ela introduz uma série de novos elementos, atributos e funcionalidades para tornar o desenvolvimento web mais poderoso e eficiente.                        </p>
                         </div>
-                        <div class="contras">
-                            <h3>CONTRAS</h3>
-                            <ul >
-                                <li>Requer um navegador moderno para aproveitar ao máximo seus recursos.</li>
-                                <li>Não é projetado para manipulação avançada de gráficos</li>
-                                <li>Sem suporte nativo para desenvolvimento de aplicativos off-line</li>
-                            </ul>
+                        <div class="right-column">
+                            <div class="pros">
+                                <h3>PRÓS</h3>
+                                <ul>
+                                    <li>Responsividade Nativa</li>
+                                    <li>Estruturação semântica do conteúdo</li>
+                                    <li>Suporte para vídeos e áudios sem plugins externos.</li>
+                                </ul>
+                            </div>
+                            <div class="contras">
+                                <h3>CONTRAS</h3>
+                                <ul >
+                                    <li>Requer um navegador moderno para aproveitar ao máximo seus recursos.</li>
+                                    <li>Não é projetado para manipulação avançada de gráficos</li>
+                                    <li>Sem suporte nativo para desenvolvimento de aplicativos off-line</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 <a href="https://dev.w3.org/html5/spec-LC/" target="_blank">w3c/html5</a>    
@@ -176,43 +196,45 @@
         </section>
         <section id="janela-modal-js" class="modal">
             <article class="Javascript">
-                <div class="Javascript-content">
-                    <div>
+                <div class="modal-content">
+                    <div  class="container-header-modal">
                         <img src="imagens/js-logo.png" alt="Logo Javascript">
                         <h3>JAVASCRIPT</h3>
                     </div>
-                    <div class="left-column">
-                        <p>
-                            JavaScript é uma linguagem de programação essencial para a web, responsável por adicionar interatividade, controle de dados e funcionalidades dinâmicas nas páginas.                        </p>
-                    </div>
-                    <div class="right-column">
-                        <div class="pros">
-                            <h3>PRÓS</h3>
-                            <ul>
-                                <li>
-                                    Executado diretamente no navegador, sem necessidade de compilações.
-                                </li>
-                                <li>
-                                    Flexível e compatível com inúmeras bibliotecas e frameworks.
-                                </li>
-                                <li>
-                                    Oferece manipulação avançada do DOM para interatividade.
-                                </li>
-                            </ul>
+                    <div class="modal-content-info">
+                        <div class="left-column">
+                            <p>
+                                JavaScript é uma linguagem de programação essencial para a web, responsável por adicionar interatividade, controle de dados e funcionalidades dinâmicas nas páginas.                        </p>
                         </div>
-                        <div class="contras">
-                            <h3>CONTRAS</h3>
-                            <ul >
-                                <li>
-                                    Pode gerar inconsistências de desempenho em navegadores diferentes.
-                                </li>
-                                <li>
-                                    Em projetos maiores, pode ficar desorganizado sem boas práticas.
-                                </li>
-                                <li>
-                                    Pode ser mais vulnerável a ataques como Cross-Site Scripting (XSS)
-                                </li>
-                            </ul>
+                        <div class="right-column">
+                            <div class="pros">
+                                <h3>PRÓS</h3>
+                                <ul>
+                                    <li>
+                                        Executado diretamente no navegador, sem necessidade de compilações.
+                                    </li>
+                                    <li>
+                                        Flexível e compatível com inúmeras bibliotecas e frameworks.
+                                    </li>
+                                    <li>
+                                        Oferece manipulação avançada do DOM para interatividade.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contras">
+                                <h3>CONTRAS</h3>
+                                <ul >
+                                    <li>
+                                        Pode gerar inconsistências de desempenho em navegadores diferentes.
+                                    </li>
+                                    <li>
+                                        Em projetos maiores, pode ficar desorganizado sem boas práticas.
+                                    </li>
+                                    <li>
+                                        Pode ser mais vulnerável a ataques como Cross-Site Scripting (XSS)
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 <a href="https://www.w3.org/wiki/JavaScript_best_practices" target="_blank">w3c/javascript</a>    
@@ -224,43 +246,45 @@
         </section>
         <section id="janela-modal-bt" class="modal">
             <article class="bootstrap">
-                <div class="bootstrap-content">
-                    <div>
+                <div class="modal-content">
+                    <div  class="container-header-modal">
                         <img src="imagens/bootstrap-icon-pq.png" alt="Logo bootstrap">
-                        <h3>Bootstrap</h3>
+                        <h3>BOOTSTRAP</h3>
                     </div>
-                    <div class="left-column">
-                        <p>
-                            Bootstrap é um framework front-end desenvolvido para facilitar a criação de layouts responsivos e estilos consistentes. Ele oferece componentes prontos para uso e um sistema de grade robusto.                        </p>
-                    </div>
-                    <div class="right-column">
-                        <div class="pros">
-                            <h3>PRÓS</h3>
-                            <ul>
-                                <li>
-                                    Facilita a criação de layouts responsivos de forma rápida.
-                                </li>
-                                <li>
-                                    Inclui uma grande variedade de componentes e estilos prontos.
-                                </li>
-                                <li>
-                                    Extensível com temas personalizados e integração com outras tecnologias.
-                                </li>
-                            </ul>
+                    <div class="modal-content-info">
+                        <div class="left-column">
+                            <p>
+                                Bootstrap é um framework front-end desenvolvido para facilitar a criação de layouts responsivos e estilos consistentes. Ele oferece componentes prontos para uso e um sistema de grade robusto.                        </p>
                         </div>
-                        <div class="contras">
-                            <h3>CONTRAS</h3>
-                            <ul >
-                                <li>
-                                    Pode resultar em arquivos CSS mais pesados, se não otimizado.
-                                </li>
-                                <li>
-                                    Estilos padrões podem dificultar personalização profunda.
-                                </li>
-                                <li>
-                                    Requer atenção para evitar um visual muito “padrão” ou comum.
-                                </li>
-                            </ul>
+                        <div class="right-column">
+                            <div class="pros">
+                                <h3>PRÓS</h3>
+                                <ul>
+                                    <li>
+                                        Facilita a criação de layouts responsivos de forma rápida.
+                                    </li>
+                                    <li>
+                                        Inclui uma grande variedade de componentes e estilos prontos.
+                                    </li>
+                                    <li>
+                                        Extensível com temas personalizados e integração com outras tecnologias.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contras">
+                                <h3>CONTRAS</h3>
+                                <ul >
+                                    <li>
+                                        Pode resultar em arquivos CSS mais pesados, se não otimizado.
+                                    </li>
+                                    <li>
+                                        Estilos padrões podem dificultar personalização profunda.
+                                    </li>
+                                    <li>
+                                        Requer atenção para evitar um visual muito “padrão” ou comum.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 <a href="https://getbootstrap.com">bootstrap.com</a>    
@@ -272,45 +296,47 @@
         </section>
         <section id="janela-modal-css" class="modal">
             <article class="css">
-                <div class="css-content">
-                    <div>
+                <div class="modal-content">
+                    <div  class="container-header-modal">
                         <img src="imagens/css-logo.png" alt="Logo css">
                         <h3>CSS3</h3>
                     </div>
-                    <div class="left-column">
-                        <p>
-                            CSS3 é a versão mais recente da linguagem de estilos CSS, que define a aparência e o layout de uma página web. Ele permite a criação de interfaces visualmente atraentes e responsivas.
-                        </p>
+                    <div class="modal-content-info">
+                        <div class="left-column">
+                            <p>
+                                CSS3 é a versão mais recente da linguagem de estilos CSS, que define a aparência e o layout de uma página web. Ele permite a criação de interfaces visualmente atraentes e responsivas.
+                            </p>
+                        </div>
+                        <div class="right-column">
+                            <div class="pros">
+                                <h3>PRÓS</h3>
+                                <ul>
+                                    <li>
+                                        Proporciona personalização avançada de layouts com flexibilidade.
+                                    </li>
+                                    <li>
+                                        Inclui transições, animações e transformações 3D.
+                                    </li>
+                                    <li>
+                                        Permite a criação de design responsivo com media queries.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contras">
+                                <h3>CONTRAS</h3>
+                                <ul >
+                                    <li>
+                                        Algumas propriedades são inconsistentes entre navegadores.
+                                    </li>
+                                    <li>
+                                        Não possui controle direto sobre a lógica de interatividade.
+                                    </li>
+                                    <li>
+                                        Manipular CSS em projetos complexos pode se tornar desafiador.
+                                    </li>
+                                </ul>
+                            </div>
                     </div>
-                    <div class="right-column">
-                        <div class="pros">
-                            <h3>PRÓS</h3>
-                            <ul>
-                                <li>
-                                    Proporciona personalização avançada de layouts com flexibilidade.
-                                </li>
-                                <li>
-                                    Inclui transições, animações e transformações 3D.
-                                </li>
-                                <li>
-                                    Permite a criação de design responsivo com media queries.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="contras">
-                            <h3>CONTRAS</h3>
-                            <ul >
-                                <li>
-                                    Algumas propriedades são inconsistentes entre navegadores.
-                                </li>
-                                <li>
-                                    Não possui controle direto sobre a lógica de interatividade.
-                                </li>
-                                <li>
-                                    Manipular CSS em projetos complexos pode se tornar desafiador.
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">mozilla/CSS</a>    
                     
